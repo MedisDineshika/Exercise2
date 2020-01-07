@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+
+
+public class ShowTime {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		
+		
+		Scanner s= new Scanner(System.in);
+		
+		
+		System.out.print("Enter the year ");
+		
+		int year  = s.nextInt();
+		
+		System.out.print("Enter the month ");
+		
+		int month = s.nextInt();
+		
+		System.out.print("Enter the date ");
+		
+		int date = s.nextInt();
+		
+		System.out.print("Enter the hour  ");
+		
+		int hour = s.nextInt();
+		
+		System.out.print("Enter the minute ");
+		
+		int minute = s.nextInt();
+		
+		System.out.print("Enter the second ");
+		int second = s.nextInt();
+		 System.out.print("The inputed date time is" +year+ " " +month+" "+date+ " " +hour+": " +minute+ " :" +second);
+	}
+
+}
